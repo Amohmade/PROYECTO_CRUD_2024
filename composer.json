@@ -1,0 +1,12 @@
+{
+    "name": "h/proyectocrud",
+    "autoload": {
+        "psr-4": {
+            "H\\Proyectocrud\\": "src/"
+        }
+    },
+    "require": {
+        "tecnickcom/tcpdf": "^6.6",
+        "maxmind-db/reader": "^1.11"
+    }
+}

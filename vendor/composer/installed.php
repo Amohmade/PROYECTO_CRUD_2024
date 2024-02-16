@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'h/proyectocrud',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '9d954db5ec95f6c2503e2f33eaa7f83fcf046dc6',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'h/proyectocrud' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '9d954db5ec95f6c2503e2f33eaa7f83fcf046dc6',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'maxmind-db/reader' => array(
+            'pretty_version' => 'v1.11.1',
+            'version' => '1.11.1.0',
+            'reference' => '1e66f73ffcf25e17c7a910a1317e9720a95497c7',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../maxmind-db/reader',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'tecnickcom/tcpdf' => array(
+            'pretty_version' => '6.6.5',
+            'version' => '6.6.5.0',
+            'reference' => '5fce932fcee4371865314ab7f6c0d85423c5c7ce',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../tecnickcom/tcpdf',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
